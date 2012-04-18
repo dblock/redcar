@@ -1,4 +1,4 @@
-REDCAR_VERSION     = "0.14.0dev"
+REDCAR_VERSION     = "0.14.1dev"
 REDCAR_DESCRIPTION = "A Ruby programmer's text editor"
 REDCAR_MAINTAINER  = "Daniel Lucraft <dan@fluentradical.com>"
 REDCAR_LICENSE     = "GPL v2"
