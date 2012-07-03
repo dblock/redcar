@@ -68,7 +68,7 @@ end
 #
 # and so on.
 module Redcar
-  VERSION         = '0.14.1dev' # also change in the gemspec!
+  VERSION         = '0.14.0dev' # also change in the gemspec!
   VERSION_MAJOR   = 0
   VERSION_MINOR   = 14
   VERSION_RELEASE = 0
@@ -133,10 +133,7 @@ module Redcar
       require 'json'
     end
 
-    $:.push(File.expand_path("../../vendor/bouncy-castle-java/lib", __FILE__))
-    require 'bouncy-castle-java'
-    
-    $:.push(File.expand_path("../../vendor/jruby-openssl/lib/shared", __FILE__))
+    $:.push(File.expand_path("../../vendor/jruby-openssl/lib", __FILE__))
     require 'openssl'
     
     plugin_manager.load("core")
